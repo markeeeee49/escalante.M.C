@@ -1,0 +1,186 @@
+/* Add this to your existing style.css */
+
+/* Style for the login form container */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #999999;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px 0;
+  color: rgb(236, 236, 236);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav .logo img {
+  width: 100px;
+}
+
+nav .nav-links {
+  list-style-type: none;
+}
+
+nav .nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav .nav-links li a {
+  color: rgb(245, 136, 12);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .nav-links li a:hover {
+  color: #f0c040;
+}
+
+section.home, .about, .recipes {
+  text-align: center;
+  padding: 50px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.about .background {
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  background-position: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+}
+
+.recipe-card {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+.login-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Style for the login form */
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.login-form button:hover {
+  background-color: #f0c040;
+}
+
+.login-form p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.login-form p a {
+  text-decoration: none;
+  color: #333;
+}
+
+.login-form p a:hover {
+  color: #f0c040;
+}
+
+/* Hide the main content initially */
+.main-content {
+  display: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
